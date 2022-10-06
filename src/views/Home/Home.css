@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'VT323', monospace;
-
+    text-transform: capitalize;
   }
 
 html {
@@ -96,7 +96,7 @@ html {
   }
   
   .main-section__black {
-    background: #FA5643;
+    background: black;
     border: 1px solid black;
     height: calc(100% - 50px);
     margin: 25px;
@@ -118,14 +118,14 @@ html {
   }
   
   .poke-name {
-    color: white;
+    color: black;
     font-size: 25px;
-    font-weight: bold;
   }
   
   .poke-id {
     color: rgba(0,0,0,.5);
     font-size: 20px;
+    font-weight: bold;
   }
   
   .screen__image {
@@ -280,6 +280,7 @@ html {
   
   .left-container__hinge:last-child {
     border-top: 3px solid black;
+    margin-top: 395px;
   }
   
   .top-section__red {
@@ -374,7 +375,7 @@ html {
   
   
   .hide {
-    /* display: none; */
+    display: none;
   }
   
   .normal {

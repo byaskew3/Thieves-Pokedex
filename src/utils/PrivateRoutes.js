@@ -9,7 +9,6 @@ export default function PrivateRoutes() {
     useEffect(() => { onAuthStateChanged(auth, (user) => {
         if (user) {
             setToken(true)
-            console.log(user)
         } else {
             setToken(false)
         }
